@@ -12,3 +12,6 @@ Directive to make a signature with canvas.
  <dba-signature options="{width: 800, height: 400, color: '#000',backgroundColor:'#fff',lineWidth:5,id: 'signature' }"></dba-signature>
 
 ```
+
+*Based on*
+https://github.com/pwambach/angular-canvas-painter
