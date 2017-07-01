@@ -1,0 +1,30 @@
+{
+  "name": "signature-angular1",
+  "authors": [
+    "daniel <daniel_brena@outlook.com>"
+  ],
+  "description": "Directive to make a signature with canvas.",
+  "main": "dba-signature-angular.js",
+  "repository":{
+    "type":"git",
+    "url": "https://github.com/DanielBrena/Signature-Angular-1.git"
+  },
+  "keywords": [
+    "angular",
+    "canvas",
+    "directive",
+    "paint"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+      <head>
+            <title></title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+      <body ng-controller="ControllerSignature">
+            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Signature</h1>
+            <dba-signature options="{width: 800, height: 400, color: '#000',backgroundColor:'#fff',lineWidth:5,id: 'signature' }"></dba-signature>
+
+            <button type="button" ng-click="events.clean()">Limpiar</button>
+            <script src="../bower_components/angular/angular.js"></script>
+            <script src="app.js"></script>
+            <script src="../dba-signature-angular.js">
+                  
+            </script>
+      </body>
+</html>
